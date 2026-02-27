@@ -1,11 +1,14 @@
 ---
 name: git-commit-message
-description: Generate a conventional git commit message based on staged changes.
+description: Use this skill whenever the users wants to create a git commit. Trigger include: any mention of commit. This skill generates a conventional git commit message based on staged changes.
 ---
+
+# git commit message generation
 
 Look at the staged changes and generate a Conventional Commit message.
 
-## Requirments
+
+## Requirements
 
 - Use the Conventional Commits format: `<type>(optional scope): <short summary>`.
 - The first line must be short and high-level (max 72 characters).
